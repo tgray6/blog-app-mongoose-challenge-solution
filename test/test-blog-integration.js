@@ -99,7 +99,7 @@ describe('Blog API Resource', function() {
           return BlogPost.count();
         })
         .then(function(count) {
-          res.body.should.have.length.of.at.least(count);
+          res.body.should.have.lengthOf(count);
         });
     });
 
