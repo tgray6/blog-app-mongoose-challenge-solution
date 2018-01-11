@@ -55,7 +55,7 @@ describe('Blog API Resource', function() {
   // so we return the value returned by these function calls.
   before(function() {
     // TEST_DATABASE_URL REMOVED PARAM ************
-    return runServer(TEST_DATABASE_URL);
+    return runServer();
   });
 
   beforeEach(function() {
