@@ -2,6 +2,8 @@ language: node_js
 node_js: node
 services: 
   -mongodb
+  before_script:
+  - sleep 15
 deploy:
   provider: heroku
   api_key: "cafaab08-b8cc-4f5c-a047-44a821f60ee4"
