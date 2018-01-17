@@ -17,7 +17,7 @@ chai.use(chaiHttp);
 
 
 function seedBlogData(){
-	// console.info('seeding blog data');
+	console.info('seeding blog data');
 	const seedData = [];
 	for (let i=1; i<=10; i++){
 		seedData.push(generateBlogData());
@@ -250,18 +250,6 @@ describe('DELETE endpoint', function() {
     });
   });
 });
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
